@@ -1,0 +1,143 @@
+/* Reset CSS */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Warna teks putih */
+}
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Bayangan dengan transparansi lebih tinggi */
+}
+
+/* Greetings styling */
+.greetings {
+    font-size: 36px; /* Ukuran teks besar */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Description styling */
+.description {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.description strong {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.description .title {
+    font-size: 28px;
+    color:  #3498db;
+}
+
+.description .morning {
+    font-size: 16px;
+    color: #ccc; /* Warna teks abu-abu untuk teks tambahan */
+}
+
+.description .message {
+    color: #ffff7a;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Button styling */
+.button {
+    margin-top: 20px;
+   
+}
+
+.button a {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button a:hover {
+    background-color: #2980b9;
+}
+
+/* Audio player styling */
+audio {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background: #000;
+  }
+  h1 {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  h1 span {
+    animation: animate 1s linear infinite;
+    margin: 0 10px;
+    /* animation: animate 3s forwards; */
+  }
+  h1 span:nth-child(1) {
+    animation-delay: 0s;
+  }
+  h1 span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  h1 span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  h1 span:nth-child(4) {
+    animation-delay: 0.6s;
+  }
+  h1 span:nth-child(5) {
+    animation-delay: 0.8s;
+  }
+  
+  @keyframes animate {
+    0%,
+    80% {
+      color: #333;
+      text-shadow: none;
+    }
+    100% {
+      color: #ffffff;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+        0 0 120px #fff;
+    }
+  }
+  
